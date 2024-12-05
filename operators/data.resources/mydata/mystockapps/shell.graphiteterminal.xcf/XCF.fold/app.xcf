@@ -1,0 +1,7 @@
+# Get config.
+
+[name] =  System Terminal
+[directory] =  './terminal.html'
+[icon] = ""
+[description] = "A simple virtual terminal emulator that runs inside the container for this platform"
+[author] = "Park Embedded Technologies."

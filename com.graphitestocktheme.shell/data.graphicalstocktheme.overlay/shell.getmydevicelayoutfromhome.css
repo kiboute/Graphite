@@ -1,0 +1,207 @@
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+* {
+    display: flexbox;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./resources/Roboto.ttf);
+}
+
+@font-face {
+    font-family: prod;
+    src: url(./resources/Product.ttf);
+}
+
+@font-face {
+    font-family: pro-bold;
+    src: url(./resources/ProductBold.ttf);
+}
+
+@font-face {
+    font-family: pop;
+    src: url(./resources/Poppins-Regular.ttf);
+}
+
+@keyframes rectUp {
+    0% {
+        border-radius: 37px;
+    }
+
+    100% {
+        color: white;
+        border-radius: 6px;
+        background-color: #151515;
+    }
+}
+
+@keyframes rectDown {
+    0% {
+        border-radius: 6px;
+        background-color: #151515;
+    }
+
+    100% {
+        border-radius: 37px;
+    }
+}
+
+@keyframes showDockBtn {
+    0% {
+        display: none;
+        opacity: 0%;
+    }
+    100% {
+        display: block;
+        opacity: 100%;
+    }
+}
+
+@keyframes wrong {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(-4px);
+    }
+    25% {
+        transform: translateX(0px);
+    }
+    30% {
+        transform: translateX(4px);
+    }
+    35% {
+        transform: translateX(0px);
+    }
+    40% {
+        transform: translateX(-4px);
+    }
+    45% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    55% {
+        transform: translateX(0px);
+    }
+    60% {
+        transform: translateX(-4px);
+    }
+    65% {
+        transform: translateX(0px);
+    }
+    70% {
+        transform: translateX(4px);
+    }
+    75% {
+        transform: translateX(0px);
+    }
+    80% {
+        transform: translateX(-4px);
+    }
+    85% {
+        transform: translateX(0px);
+    }
+    90% {
+        transform: translateX(4px);
+    }
+    95% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+[data-theme="embedded-standard-2"] /*Codename: Stock */ {
+    /* body */
+    --body: url("/operators/resources/wallpapers/pixel-wallpaper-standard.jpg"); /* Placeholder image */
+    --body-color: #ffffff;
+    --userselect-background: #ffffff0a;
+    --userselect-color: #1d1d1d;
+    --version: #ffffff;
+    --cursorText: url("/resources/cursors/textD.png") 0 16, text;
+    --cursorNormal: url("/resources/cursors/normalD.png"), default;
+    --cursorHand: url("/resources/cursors/handD.png"), pointer;
+    --resizeLeftRight: url("./resources/cursors/re-lrD.png") 20 0, ew-resize;
+    --resizeUpDown: url("./resources/cursors/re-snD.png") 0 20, ns-resize;
+    --resizeBottomLeft: url("./resources/cursors/re-bl_trD.png") 20 10, nesw-resize;
+    --resizeBottomRight: url("./resources/cursors/re-br_tlD.png") 18 10, nwse-resize;
+    --cursorCrosshair: url("./resources/cursors/crosshairD.png") 16 16, crosshair;
+
+    /* shell */
+    --shell-background: #000000;
+    --shell-outline-color: #bebebe;
+    --shell-color: #cecece;
+    --button-app-close-color: #ffaaaa;
+    --button-app-close-hover-background: #da4343;
+    --start-icon: #c9c9c9;
+    --start-icon-hover: #5be873;
+    --start-apps-icon: #000000;
+    --apps-background: rgb(82, 82, 82);
+    --apps-button-background: #3b3b3b;
+    --apps-button-color: rgb(0, 0, 0);
+    --apps-button-boxshadow: #ceb9b9;
+    --apps-search-background: #dbd8d8;
+    --system-control-background: #f0eeee;
+    --system-control-icon-color: grey;
+    --system-control-icon-color-hover: #000000;
+    
+    /* clock */
+    --fulltime-background: #000000;
+    --fulltime-color: #ffffff;
+    --fulltime-clock-close-hover: #b1b1b1;
+    --clock-background: #ffffff;
+    
+    /* desktop */
+    --desktopapp-background: #8c8c8c5e;
+    --inputAppSearch-background: #373737;
+    --inputAppSearchNoneFocus-color: #9d9d9d;
+    --inputAppSearch-focus-boxShadow: 0 0 54px -8px #75ff8c;
+    --inputAppSearch-focus-background: #373737a6;
+    --inputAppSearch-color: #ffffff;
+
+    /* dock */
+    --dock-background: #1e1e1e;
+    --dock-background-glassy: #2b2b2b82;
+    --dock-button-background: #2d2d2d;
+    --dock-button-active-glassy: #62626242;
+    --dock-alert-background: #47ca6360;
+    --dock-button-boxshadow: #242424;
+    --dock-icon-color: #ffffff;
+    --dock-icon-color2: #000000;
+    --dock-button-inactive-span: #fdfdfd70;
+
+    /* context menu */
+    --context-menu-background: #1e1e1e;
+    --context-menu-color: #bdbdbd;
+    --context-menu-color-hover: white;
+
+    /* windows */
+    --window-background: #ffffff;
+    --window-color: #111111;
+    --window-dragger: #ffffff;
+    --window-shadow-border: rgba(255, 255, 255, 0);
+    --accentShadow: rgba(65, 188, 94, 0);
+
+    /* buttons */
+    --button-background: #393939;
+    --button-background-hover: #41bc5d;
+    --button-boxShadow: none;
+    --button-boxShadow-hover: 0 0 8px 4px #41bc5d;
+    --button-color: #41bc5d;
+    --button-span-color: #282928;
+    --button-span-color-hover: #2f9447;
+    --button-color-hover: #ffffff;
+    --winic-color: white;
+    --winic-color-hover: #919191;
+    --close-icon-color: white;
+    --close-icon-color-hover: white;
+    --window-control-button: #393939;
+    --window-control-button-hover: #171717;
+    --window-close-button: #ff7979;
+}

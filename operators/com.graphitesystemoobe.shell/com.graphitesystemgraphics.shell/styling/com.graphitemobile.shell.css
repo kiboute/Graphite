@@ -1,0 +1,98 @@
+* {
+    user-select: none;
+}
+body {
+    width: 100;
+    height: 100;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    overflow: hidden;
+}
+.wincontents {
+    display: none;
+}
+#graphical_system_settings_lodge {
+    background: #292929;
+    color: #FFFFFF;
+    height: 9%; /* Default height setting: Can be adjusted! */
+}
+#graphical_system_settings_coreSettings {
+    position: absolute;
+    top: 9%;
+    left: 0;
+    right: 0;
+    bottom: -50%;
+    margin: 0;
+    padding: 0;
+
+}
+#graphical_system_settings_coreSettings button {
+    font-size: small;
+}
+#graphical_system_settings_newBanner {
+    font-size: large;
+}
+
+#graphical_system_settings_searchInputSet .form-outline {
+    color: #000000;
+    outline: #000000;
+}
+#graphical_system_settings_coreSettings_bar {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+#graphical_system_settings_wirelessSettingsViaNode{
+    width: 50%;
+    height: 50%;
+    background: #ffcfcf;
+    color: #000000;
+}
+/* Based on MDB. */
+.btn-square-sm {
+    width: 50px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 50px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:7px;
+    }
+    
+    .btn-square-md {
+    width: 100px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:12px;
+    }
+    
+    .btn-square-lg {
+    width: 150px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 150px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:18px;
+    }
+    
+    .btn-square-xl {
+    width: 200px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 200px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:24px;
+    }
+    .btn {
+        box-shadow: none;
+    }

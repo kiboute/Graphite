@@ -1,0 +1,14 @@
+{
+  "name": "graphite-appstore",
+  "version": "88.909.12",
+  "description": "An web-based app store for graphite.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^5.0.8"
+  }
+}

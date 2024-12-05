@@ -1,0 +1,88 @@
+[
+    {
+      "_id": "https://mail.google.com/app.webmanifest",
+      "name": "Google Mahil",
+      "icons": [{
+        "src": "google-mail.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://mail.google.com",
+      "display": "standalone",
+      "theme_color": "#d84336"
+    },
+    {
+      "_id": "https://calendar.google.com/app.webmanifest",
+      "name": "Google Calendar",
+      "icons": [{
+        "src": "google-calendar.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://calendar.google.com/",
+      "display": "standalone",
+      "theme_color": "#3a75d7"
+    },
+    {
+      "_id": "https://irccloud.com/app.webmanifest",
+      "name": "IRCCloud",
+      "icons": [{
+        "src": "irccloud.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://irccloud.com/",
+      "display": "standalone",
+      "theme_color": "#4f79f7"
+    },
+    {
+      "_id": "https://play.google.com/music/listen/app.webmanifest",
+      "name": "Google Play Music",
+      "icons": [{
+        "src": "google-play-music.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://play.google.com/music/listen",
+      "display": "standalone",
+      "theme_color": "#ffffff",
+      "scope": "/music/listen"
+    },
+    {
+      "_id": "https://www.evernote.com/app.webmanifest",
+      "name": "Evernote",
+      "icons": [{
+        "src": "evernote.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://www.evernote.com/Home.action",
+      "display": "standalone",
+      "theme_color": "#2dbe60"
+    },
+    {
+      "_id": "https://www.facebook.com/app.webmanifest",
+      "name": "Facebook",
+      "icons": [{
+        "src": "facebook.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://www.facebook.com/",
+      "display": "standalone",
+      "theme_color": "#3b5998"
+    },
+    {
+      "_id": "https://twitter.com/app.webmanifest",
+      "name": "Twitter",
+      "icons": [{
+        "src": "twitter.png",
+        "sizes": "300x300",
+        "type": "image/png"
+      }],
+      "start_url": "https://twitter.com/",
+      "display": "standalone",
+      "theme_color": "#1b93de"
+    }
+  ]
+  
