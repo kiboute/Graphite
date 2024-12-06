@@ -1,13 +1,5 @@
 ![Kiboute](public/kiboute/klogo150.png)
 
-<style>
-  img[alt="Kiboute"] { 
-  height:  20%; 
-  display: block;
-  border-radius: 25%;
-}
-</style>
-
 Check out the [Twitter page](https://x.com/kiboutetech) and our [website](https://kiboute.org) for updates.
 
 # Graphite Shell For Mobile Devices.
